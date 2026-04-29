@@ -1,98 +1,216 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>J7O.PL - Wata Cukrowa & Napoje</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f7f7f7;
-            margin: 0;
-            padding: 0;
-            color: #222;
-        }
-        header {
-            background: #ff66aa;
-            padding: 20px;
-            text-align: center;
-            color: white;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        section {
-            background: white;
-            margin: 20px auto;
-            padding: 20px;
-            width: 90%;
-            max-width: 700px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px #ccc;
-        }
-        h1, h2 {
-            color: #ff3399;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        li {
-            padding: 5px 0;
-            font-size: 18px;
-        }
-        a {
-            color: #ff3399;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>J&O – Napoje i wata cukrowa w Sopotni Wielkiej</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #1abc9c; /* TURKUS */
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0,0,0,0.25);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(6px);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.25);
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: #fff;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.15);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.25);
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
-<header>J7O.PL — Wata Cukrowa & Napoje</header>
+<header>
+  <nav>
+    <a href="#home">Strona główna</a>
+    <a href="#onas">O nas</a>
+    <a href="#produkty">Nasze produkty</a>
+    <a href="#cennik">Cennik</a>
+    <a href="#lokalizacja">Lokalizacja i kontakt</a>
+  </nav>
+</header>
 
-<section id="menu">
-    <h1>MENU</h1>
-    <p><strong>Mamy płatność kartą!</strong></p>
-
-    <h2>Cennik</h2>
-    <ul>
-        <li>Woda niegazowana 200 ml – <strong>1,00 zł</strong></li>
-        <li>Woda gazowana 200 ml – <strong>1,50 zł</strong></li>
-        <li>Lemoniada (cytrynowa / czarny bez / pomarańcza) – <strong>5,00 zł</strong></li>
-        <li>Wata cukrowa mała – <strong>6,00 zł</strong></li>
-        <li>Wata cukrowa duża – <strong>7,00 zł</strong></li>
-    </ul>
-
-    <h2>Zestawy</h2>
-    <ul>
-        <li>Dwa napoje w cenie jednego – <strong>_ zł</strong></li>
-        <li>Zestaw: wata + napój – <strong>8,00 zł</strong></li>
-    </ul>
-
-    <h2>Smaki waty cukrowej</h2>
-    <p>Klasyczna, Cola, Jagoda, Jabłko, Malina</p>
-</section>
-
-<section id="godziny">
-    <h1>Godziny otwarcia</h1>
-    <p>Poniedziałek – Sobota: <strong>10:00 – 20:00</strong></p>
-</section>
-
-<section id="kontakt">
-    <h1>Kontakt</h1>
-    <p><strong>E-mail:</strong> 
-        <a href="mailto:j7o.wata.cukrowa@gmail.com">
-            j7o.wata.cukrowa@gmail.com
-        </a>
-    </p>
-
-    <h2>Lokalizacja</h2>
+<section id="home">
+  <h1>Witamy w J&O, Twoim sezonowym przystanku w Sopotni Wielkiej!</h1>
+  <div class="box">
     <p>
-        <a href="https://maps.app.goo.gl/7CHBjxw8F1GVDQ6M9" target="_blank">
-            Zobacz nas na mapie Google
-        </a>
+      Jesteśmy nową firmą, która specjalizuje się w pysznych napojach i puszystej wacie cukrowej.
+      Przyjdź i poczuj wakacyjną atmosferę z nami. Czekamy na Ciebie!
     </p>
+    <p><strong>💳 Akceptujemy płatność kartą!</strong></p>
+  </div>
 </section>
+
+<section id="onas">
+  <h2>O nas</h2>
+  <div class="box">
+    <p>
+      Jesteśmy J&O, nowo powstałą firmą, która wnosi radość i słodkość do Sopotni Wielkiej.
+      Nasza pasja to tworzenie niezapomnianych smaków i chwil dla naszych klientów.
+      Stawiamy na świeże składniki, kreatywne połączenia i przyjazną obsługę.
+    </p>
+
+    <h3>Nasza historia</h3>
+    <p>
+      J&O to efekt marzeń o stworzeniu miejsca, gdzie każdy znajdzie coś dla siebie – od orzeźwiających
+      napojów po puszystą watę cukrową. Naszą misją jest stać się ulubionym punktem na mapie Sopotni Wielkiej.
+    </p>
+
+    <h3>Poznaj J&O: naszą pasję i smaki</h3>
+    <p>
+      Witaj w J&O, gdzie każdy napój i każda wata cukrowa to opowieść o naturze i pasji.
+      Odkryj, co nas inspiruje i jak tworzymy niezapomniane smaki.
+    </p>
+
+    <h3>Nasza historia, nasz smak: moc natury</h3>
+    <p>
+      Pomysł na J&O narodził się z miłości do natury i jej bogactwa.
+      Wierzymy, że najlepsze smaki pochodzą z najlepszych składników.
+    </p>
+
+    <h3>Co wyróżnia J&O?</h3>
+    <p>
+      Każdy produkt jest tworzony ręcznie, z dbałością o detale.
+      Nasze receptury bazują na naturalnych składnikach.
+    </p>
+
+    <h3>Dla kogo jest J&O?</h3>
+    <p>
+      Dla każdego, kto kocha radość, naturalne smaki i chwilę słodkiej przyjemności.
+    </p>
+
+    <h3>Mały straganik z wielkim sercem</h3>
+    <p>
+      W naszym straganiku panuje ciepła atmosfera – chcemy, aby każdy poczuł się jak w domu.
+    </p>
+  </div>
+</section>
+
+<section id="produkty">
+  <h2>Nasze produkty</h2>
+
+  <div class="box">
+    <h3>Wata cukrowa</h3>
+    <p>
+      Ręcznie robiona, w smakach: zwykła, jabłko, malina, jagoda oraz cola.
+    </p>
+
+    <h3>Lemoniady</h3>
+    <p>
+      Pomarańczowa, cytrynowa oraz cytrynowa z czarnym bzem.
+    </p>
+
+    <h3>Woda</h3>
+    <p>
+      Woda gazowana i niegazowana – idealna po górskich wędrówkach.
+    </p>
+
+    <h3>Dla kogo?</h3>
+    <p>
+      Dla dzieci, dorosłych, rodzin i turystów – każdy znajdzie coś dla siebie!
+    </p>
+
+    <h3>Co nas wyróżnia?</h3>
+    <p>
+      Ręczna produkcja, świeżość i naturalne składniki.
+    </p>
+
+    <h3>Sezonowe oferty</h3>
+    <p>
+      Zestaw: dowolna lemoniada + wata cukrowa = <strong>8 zł</strong>.
+    </p>
+  </div>
+</section>
+
+<section id="cennik">
+  <h2>Cennik</h2>
+  <div class="box">
+    <h3>Odkryj słodkie i orzeźwiające chwile w J&O</h3>
+    <p>
+      W J&O stawiamy na jakość i wyjątkowe smaki.
+    </p>
+
+    <h3>NASZ CENNIK</h3>
+    <p>Wpisz swoje ceny tutaj:</p>
+    <ul>
+      <li>Wata cukrowa – … zł</li>
+      <li>Lemoniada – … zł</li>
+      <li>Zestaw specjalny – 8 zł</li>
+    </ul>
+  </div>
+</section>
+
+<section id="lokalizacja">
+  <h2>Lokalizacja i kontakt</h2>
+  <div class="box">
+    <h3>Gdzie nas znaleźć?</h3>
+    <p>
+      Zapraszamy do naszego sezonowego sklepu J&O w Sopotni Wielkiej!
+    </p>
+
+    <p><strong>Godziny otwarcia:</strong><br>
+      Poniedziałek – Sobota: 10:00 – 20:00
+    </p>
+
+    <p><strong>Mapa:</strong></p>
+    <p>
+      <a href="#" style="color:#fff; font-weight:bold;">Kliknij tutaj, aby otworzyć lokalizację</a>
+    </p>
+
+    <p><strong>Telefon:</strong> wpisz tutaj</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 J&O – napoje i wata cukrowa, Sopotnia Wielka
+</footer>
 
 </body>
 </html>
-
